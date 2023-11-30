@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget {
 
 ## Additional information
 
-The underlying lottie icons are from (https://useanimations.com/)https://useanimations.com/.
+The underlying lottie icons are from https://useanimations.com/.
 
 All the free files available in useAnimations are distributed under Creative Commons (CC) Attribution (BY) unless stated otherwise.
 
