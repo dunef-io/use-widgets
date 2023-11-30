@@ -2,63 +2,73 @@ Make your app more alive with beautiful animated icons.
 
 ## Features
 
-### Navigation
+### Action Icons
 
-```dart
-// import this package
-import 'package:use_widgets/use_widgets.dart';
-```
-
-```dart
-BurgerMenu(
-    // if isOpen is changed via Stateful Widget setState function
-    // or ValueNotifier it should start animate
-    isOpen: false, 
-)
-```
-
-https://github.com/nick-westendorf/use-widgets/assets/48767880/8e69c883-ae17-4638-8141-47787e5e5eab
-
-```dart
-MenuV2(
-    isOpen: false, 
-)
-```
-
-https://github.com/nick-westendorf/use-widgets/assets/48767880/50f6b806-d00b-407c-94cf-d3f825d428a6
-
-```dart
-MenuV3(
-    isOpen: false, 
-)
-```
-
-https://github.com/nick-westendorf/use-widgets/assets/48767880/d8b83837-d1aa-44f6-9af1-2835cc901103
-
-```dart
-MenuV4(
-    isOpen: false, 
-)
-```
-
-https://github.com/nick-westendorf/use-widgets/assets/48767880/6fb39e5f-6c20-498a-9967-2a161307db3f
+https://github.com/nick-westendorf/use-widgets/assets/48767880/7750b096-ece3-4523-a181-194664923017
 
 
+### Alert Icons
 
+https://github.com/nick-westendorf/use-widgets/assets/48767880/ae29cfb4-2c84-4b6d-a82a-9a1c932e84a1
+
+
+### Loading Icons
+
+https://github.com/nick-westendorf/use-widgets/assets/48767880/9548bb5e-ef4d-4e99-b7ef-00a158080bad
+
+
+### Navigation Icons
+
+https://github.com/nick-westendorf/use-widgets/assets/48767880/e0d6b920-2a70-4ff8-a631-8ec77a0a1b0c
+
+
+### Notification Icons
+
+https://github.com/nick-westendorf/use-widgets/assets/48767880/7019761c-3ffb-4c8e-93ad-405258ecb2bf
 
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the dependency to pubspec.yaml or enter the following command into your terminal:
 
-## Usage
+```bash
+flutter pub add use_widgets
+```
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
+Next I will provide a super simple example of how to use one of the animated icons:
 ```dart
-const like = 'sample';
+import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:use_widgets/use_widgets/use_widgets.dart';
+
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return HookBuilder(builder: (context) {
+      final menuIsOpen = useState(false);
+
+      return Scaffold(
+        backgroundColor: const Color(0xff202020),
+        appBar: AppBar(
+          backgroundColor: Colors.black,
+          leading: InkWell(
+            onTap: () {
+              val.value = !val.value;
+            },
+            child: MenuV2( // Here we use on of the animated icons
+              isOpen: val.value,
+              color: Colors.white,
+            ),
+          ),
+        ),
+        body: Center(),
+     ),
+    }),
+  }
+}
+
 ```
 
 ## Additional information
