@@ -2,7 +2,18 @@ Make your app more alive with beautiful animated icons.
 
 ## Features
 
-TODO
+### Navigation
+
+https://github.com/nick-westendorf/use-widgets/assets/48767880/8e69c883-ae17-4638-8141-47787e5e5eab
+
+https://github.com/nick-westendorf/use-widgets/assets/48767880/b9591f15-d812-490b-a7d8-7aba15a18147
+
+https://github.com/nick-westendorf/use-widgets/assets/48767880/d8b83837-d1aa-44f6-9af1-2835cc901103
+
+https://github.com/nick-westendorf/use-widgets/assets/48767880/6fb39e5f-6c20-498a-9967-2a161307db3f
+
+
+
 
 
 ## Getting started
