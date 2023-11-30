@@ -23,6 +23,7 @@ part 'alerts/alert_octagon.dart';
 part 'alerts/alert_triangle.dart';
 
 part 'loading/loading_v2.dart';
+part 'loading/loading_v3.dart';
 
 part 'navigation/burger_menu.dart';
 part 'navigation/menu_v2.dart';
