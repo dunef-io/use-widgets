@@ -73,6 +73,16 @@ class HomePage extends StatelessWidget {
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+The underlying lottie icons are from (https://useanimations.com/)https://useanimations.com/.
+
+All the free files available in useAnimations are distributed under Creative Commons (CC) Attribution (BY) unless stated otherwise.
+
+The resources (animations) can be used for personal and commercial usage within Web and Mobile Applications.
+
+You may modify the resources according to your requirements and use them in any or all of your personal or commercial projects. For example, you may include this resource on a website or mobile application you will be designing for a client.
+
+You are required to attribute or link to useanimations.com in any of projects.
+
+useAnimations (useanimations.com) will not be responsible for any outcome that may occur during the use of their resources.
+
+Files from useAnimations can be shared as long as the useAnimations are credited appropriately.
