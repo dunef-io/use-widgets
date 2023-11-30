@@ -4,27 +4,27 @@ Make your app more alive with beautiful animated icons.
 
 ### Action Icons
 
-https://github.com/nick-westendorf/use-widgets/assets/48767880/7750b096-ece3-4523-a181-194664923017
+![action_icons](https://github.com/dunef-io/use-widgets/assets/109608078/787db31a-4fa5-47f6-9763-4b77a7e2d850)
 
 
 ### Alert Icons
 
-https://github.com/nick-westendorf/use-widgets/assets/48767880/ae29cfb4-2c84-4b6d-a82a-9a1c932e84a1
+![alert_icons](https://github.com/dunef-io/use-widgets/assets/109608078/c6a7bd30-82e6-439e-a299-867b4d578ec1)
 
 
 ### Loading Icons
 
-https://github.com/nick-westendorf/use-widgets/assets/48767880/9548bb5e-ef4d-4e99-b7ef-00a158080bad
+![loading_icons](https://github.com/dunef-io/use-widgets/assets/109608078/90d95751-2344-4c6c-8a7f-d596fafc7bb5)
 
 
 ### Navigation Icons
 
-https://github.com/nick-westendorf/use-widgets/assets/48767880/e0d6b920-2a70-4ff8-a631-8ec77a0a1b0c
+![navigation_icons](https://github.com/dunef-io/use-widgets/assets/109608078/ad6a4c6c-1a92-4628-8fd0-b7e68d287dd8)
 
 
 ### Notification Icons
 
-https://github.com/nick-westendorf/use-widgets/assets/48767880/7019761c-3ffb-4c8e-93ad-405258ecb2bf
+![notification_icons](https://github.com/dunef-io/use-widgets/assets/109608078/36cba6dc-d4ec-4913-aa2e-1c68ac53a764)
 
 
 ## Getting started
