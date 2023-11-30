@@ -25,7 +25,7 @@ MenuV2(
 )
 ```
 
-https://github.com/nick-westendorf/use-widgets/assets/48767880/bd9370e5-c42c-43fd-a66e-7805a906fdf4
+https://github.com/nick-westendorf/use-widgets/assets/48767880/50f6b806-d00b-407c-94cf-d3f825d428a6
 
 ```dart
 MenuV3(
