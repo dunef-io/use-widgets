@@ -5,6 +5,11 @@ Make your app more alive with beautiful animated icons.
 ### Navigation
 
 ```dart
+    // import this package
+    import 'package:use_widgets/use_widgets.dart';
+```
+
+```dart
 BurgerMenu(
   // if changed to true via Stateful Widget setState function or ValueNotifier it should start animate
   isOpen: false, 
@@ -15,7 +20,6 @@ https://github.com/nick-westendorf/use-widgets/assets/48767880/8e69c883-ae17-463
 
 ```dart
 MenuV2(
-  // if changed to true via Stateful Widget setState function or ValueNotifier it should start animate
   isOpen: false, 
 )
 ```
@@ -24,17 +28,17 @@ https://github.com/nick-westendorf/use-widgets/assets/48767880/bd9370e5-c42c-43f
 
 ```dart
 MenuV3(
-  // if changed to true via Stateful Widget setState function or ValueNotifier it should start animate
   isOpen: false, 
 )
+```
 
 https://github.com/nick-westendorf/use-widgets/assets/48767880/d8b83837-d1aa-44f6-9af1-2835cc901103
 
 ```dart
 MenuV4(
-  // if changed to true via Stateful Widget setState function or ValueNotifier it should start animate
   isOpen: false, 
 )
+```
 
 https://github.com/nick-westendorf/use-widgets/assets/48767880/6fb39e5f-6c20-498a-9967-2a161307db3f
 
