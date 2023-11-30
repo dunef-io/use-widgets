@@ -1,4 +1,4 @@
-part of use_widgets;
+part of '/use_widgets.dart';
 
 class ThumbUp extends HookWidget {
   final bool liked;

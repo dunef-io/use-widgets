@@ -1,4 +1,4 @@
-part of use_widgets;
+part of '/use_widgets.dart';
 
 class MenuV3 extends HookWidget {
   final bool isOpen;
