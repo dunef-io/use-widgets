@@ -19,7 +19,8 @@ class LoadingV3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final lottie = Lottie.asset(
-      'assets/loadingV3.json',
+      'assets/loading/loadingV3.json',
+      package: 'use_widgets',
       animate: true,
       repeat: true,
       width: width,

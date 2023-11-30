@@ -36,7 +36,8 @@ class Heart extends HookWidget {
     }, [hearted]);
 
     final lottie = Lottie.asset(
-      'assets/heart.json',
+      'assets/action/heart.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

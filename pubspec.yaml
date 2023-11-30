@@ -28,3 +28,11 @@ flutter:
   # To add assets to your package, add an assets section, like this:
   assets:
     - assets/
+    - assets/action/
+    - assets/action/bookmark.json
+    - assets/alerts/
+    - assets/content/
+    - assets/loading/
+    - assets/media/
+    - assets/navigation/
+    - assets/notifications/

@@ -36,7 +36,8 @@ class NotificationV2 extends HookWidget {
     }, [on]);
 
     final lottie = Lottie.asset(
-      'assets/notificationV2.json',
+      'assets/notifications/notificationV2.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

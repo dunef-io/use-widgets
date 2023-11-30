@@ -36,7 +36,8 @@ class SearchToX extends HookWidget {
     }, [toX]);
 
     final lottie = Lottie.asset(
-      'assets/searchToX.json',
+      'assets/action/searchToX.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

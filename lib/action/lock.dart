@@ -36,7 +36,8 @@ class Lock extends HookWidget {
     }, [locked]);
 
     final lottie = Lottie.asset(
-      'assets/lock.json',
+      'assets/action/lock.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

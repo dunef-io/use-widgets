@@ -36,7 +36,8 @@ class Star extends HookWidget {
     }, [starred]);
 
     final lottie = Lottie.asset(
-      'assets/star.json',
+      'assets/action/star.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

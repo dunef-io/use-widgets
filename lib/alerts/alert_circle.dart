@@ -19,7 +19,8 @@ class AlertCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final lottie = Lottie.asset(
-      'assets/alertCircle.json',
+      'assets/alerts/alertCircle.json',
+      package: 'use_widgets',
       animate: true,
       repeat: true,
       width: width,

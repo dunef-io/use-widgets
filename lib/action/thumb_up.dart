@@ -36,7 +36,8 @@ class ThumbUp extends HookWidget {
     }, [liked]);
 
     final lottie = Lottie.asset(
-      'assets/thumbUp.json',
+      'assets/action/thumbUp.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

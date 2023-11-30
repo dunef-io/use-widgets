@@ -19,7 +19,8 @@ class AlertTriangle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final lottie = Lottie.asset(
-      'assets/alertTriangle.json',
+      'assets/alerts/alertTriangle.json',
+      package: 'use_widgets',
       animate: true,
       repeat: true,
       width: width,

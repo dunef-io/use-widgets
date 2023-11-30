@@ -36,7 +36,8 @@ class PlusToX extends HookWidget {
     }, [toX]);
 
     final lottie = Lottie.asset(
-      'assets/plusToX.json',
+      'assets/action/plusToX.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

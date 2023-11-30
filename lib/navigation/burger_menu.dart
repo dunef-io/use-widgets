@@ -36,7 +36,8 @@ class BurgerMenu extends HookWidget {
     }, [isOpen]);
 
     final lottie = Lottie.asset(
-      'assets/burger_menu.json',
+      'assets/navigation/burger_menu.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

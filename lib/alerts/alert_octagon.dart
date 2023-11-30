@@ -19,7 +19,8 @@ class AlertOctagon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final lottie = Lottie.asset(
-      'assets/alertOctagon.json',
+      'assets/alerts/alertOctagon.json',
+      package: 'use_widgets',
       animate: true,
       repeat: true,
       width: width,

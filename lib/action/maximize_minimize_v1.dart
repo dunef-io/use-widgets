@@ -36,7 +36,8 @@ class MaximizeMinimizeV1 extends HookWidget {
     }, [maximized]);
 
     final lottie = Lottie.asset(
-      'assets/maximizeMinimize.json',
+      'assets/action/maximizeMinimizeV1.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

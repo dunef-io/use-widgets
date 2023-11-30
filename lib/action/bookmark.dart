@@ -36,7 +36,8 @@ class Bookmark extends HookWidget {
     }, [marked]);
 
     final lottie = Lottie.asset(
-      'assets/bookmark.json',
+      'assets/action/bookmark.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

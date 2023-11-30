@@ -36,7 +36,8 @@ class VisibilityV1 extends HookWidget {
     }, [visible]);
 
     final lottie = Lottie.asset(
-      'assets/visibility.json',
+      'assets/action/visibilityV1.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,

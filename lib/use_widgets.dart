@@ -22,8 +22,21 @@ part 'alerts/alert_error.dart';
 part 'alerts/alert_octagon.dart';
 part 'alerts/alert_triangle.dart';
 
+part 'content/archive.dart';
+part 'content/copy.dart';
+part 'content/mail.dart';
+part 'content/user_minus.dart';
+part 'content/user_plus.dart';
+part 'content/user_x.dart';
+
 part 'loading/loading_v2.dart';
 part 'loading/loading_v3.dart';
+
+part 'media/microphone_v1.dart';
+part 'media/microphone_v2.dart';
+part 'media/video_v1.dart';
+part 'media/video_v2.dart';
+part 'media/volume.dart';
 
 part 'navigation/burger_menu.dart';
 part 'navigation/menu_v2.dart';

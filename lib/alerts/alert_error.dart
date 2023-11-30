@@ -19,7 +19,8 @@ class AlertError extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final lottie = Lottie.asset(
-      'assets/error.json',
+      'assets/alerts/alertError.json',
+      package: 'use_widgets',
       animate: true,
       repeat: true,
       width: width,

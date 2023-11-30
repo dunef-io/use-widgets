@@ -36,7 +36,8 @@ class MenuV3 extends HookWidget {
     }, [isOpen]);
 
     final lottie = Lottie.asset(
-      'assets/menuV3.json',
+      'assets/navigation/menuV3.json',
+      package: 'use_widgets',
       controller: controller,
       width: width,
       height: height,
