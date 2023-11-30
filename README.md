@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
             onTap: () {
               val.value = !val.value;
             },
-            child: MenuV2( // Here we use on of the animated icons
+            child: MenuV2( // Here we use one of the animated icons
               isOpen: val.value,
               color: Colors.white,
             ),
