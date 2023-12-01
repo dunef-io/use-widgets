@@ -1,6 +1,6 @@
 name: use_widgets
 description: "Make your app more alive with beautiful animated icons."
-version: 0.1.1
+version: 0.3.0
 repository: https://github.com/dunef-io/use-widgets
 homepage: https://dunef.io
 
@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_hooks: ^0.20.3
-  lottie: ^2.7.0
+  lottie: ^3.0.0-alpha.3
 
 dev_dependencies:
   flutter_test:

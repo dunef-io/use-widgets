@@ -249,6 +249,95 @@ class HomePage extends HookWidget {
                 //
 
                 const SizedBox(height: 50),
+                const Title(title: 'Content'),
+                const SizedBox(height: 20),
+                Wrap(
+                  runSpacing: 30,
+                  children: [
+                    Column(
+                      children: [
+                        const WidgetName(name: 'Archive'),
+                        Archive(
+                          open: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'Copy'),
+                        Copy(
+                          focused: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'Mail'),
+                        Mail(
+                          open: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'UserMinus'),
+                        UserMinus(
+                          focused: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'UserPlus'),
+                        UserPlus(
+                          focused: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'UserX'),
+                        UserX(
+                          focused: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                  ],
+                ),
+
+                //
+
+                const SizedBox(height: 50),
                 const Title(title: 'Loading'),
                 const SizedBox(height: 20),
                 const Wrap(runSpacing: 30, children: [
@@ -276,6 +365,81 @@ class HomePage extends HookWidget {
                     ],
                   ),
                 ]),
+
+                //
+
+                const SizedBox(height: 50),
+                const Title(title: 'Media'),
+                const SizedBox(height: 20),
+                Wrap(
+                  runSpacing: 30,
+                  children: [
+                    Column(
+                      children: [
+                        const WidgetName(name: 'MicrophoneV1'),
+                        MicrophoneV1(
+                          on: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'MicrophoneV2'),
+                        MicrophoneV2(
+                          on: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'VideoV1'),
+                        VideoV1(
+                          on: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'VideoV2'),
+                        VideoV2(
+                          on: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(width: 50),
+                    Column(
+                      children: [
+                        const WidgetName(name: 'Volume'),
+                        Volume(
+                          on: val.value,
+                          color: Colors.white,
+                          width: w,
+                          height: h,
+                          fit: BoxFit.cover,
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
 
                 //
 

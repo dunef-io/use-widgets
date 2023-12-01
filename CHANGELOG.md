@@ -1,3 +1,15 @@
+## 0.3.0
+
+- Added media and content icons from useanimations.com
+- Corrected the example in README.md
+- updated lottie dependency to 3.0.0-alpha.3
+
+## 0.2.0
+
+- Added some more icons from useanimations.com
+- Added an example directory
+- Forgot to add package name for loading the lottie assets, so it was not possible to use the package in other projects. This is fixed now.
+
 ## 0.1.1
 
 Just replaced the mp4 showcases with gif files, so they can be seen on pub.dev without clicking on them.

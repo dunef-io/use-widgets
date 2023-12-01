@@ -55,10 +55,10 @@ class HomePage extends StatelessWidget {
           backgroundColor: Colors.black,
           leading: InkWell(
             onTap: () {
-              val.value = !val.value;
+              menuIsOpen.value = !menuIsOpen.value;
             },
             child: MenuV2( // Here we use one of the animated icons
-              isOpen: val.value,
+              isOpen: menuIsOpen.value,
               color: Colors.white,
             ),
           ),
