@@ -1,3 +1,7 @@
+## 0.4.0
+
+- Added some more icons from useanimations.com
+
 ## 0.3.0
 
 - Added media and content icons from useanimations.com

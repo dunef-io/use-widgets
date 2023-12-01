@@ -29,11 +29,15 @@ part 'content/user_minus.dart';
 part 'content/user_plus.dart';
 part 'content/user_x.dart';
 
+part 'loading/infinity.dart';
 part 'loading/loading_v2.dart';
 part 'loading/loading_v3.dart';
+part 'loading/loading_v4.dart';
 
 part 'media/microphone_v1.dart';
 part 'media/microphone_v2.dart';
+part 'media/play_pause_circle.dart';
+part 'media/play_pause.dart';
 part 'media/video_v1.dart';
 part 'media/video_v2.dart';
 part 'media/volume.dart';
@@ -47,3 +51,20 @@ part 'notifications/notification_v1.dart';
 part 'notifications/notification_v2.dart';
 part 'notifications/notification_v3.dart';
 part 'notifications/notification_v4.dart';
+
+part 'other/activity.dart';
+part 'other/arrow_down.dart';
+part 'other/arrow_up.dart';
+part 'other/scroll_down.dart';
+
+part 'social_media/behance.dart';
+part 'social_media/codepen.dart';
+part 'social_media/dribbble.dart';
+part 'social_media/facebook.dart';
+part 'social_media/github.dart';
+part 'social_media/instagram.dart';
+part 'social_media/linkedin.dart';
+part 'social_media/pocket.dart';
+part 'social_media/twitter.dart';
+part 'social_media/youtube_v1.dart';
+part 'social_media/youtube_v2.dart';

@@ -349,6 +349,18 @@ class HomePage extends HookWidget {
                 const Wrap(runSpacing: 30, children: [
                   Column(
                     children: [
+                      WidgetName(name: 'Infinity'),
+                      Infinity(
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  SizedBox(width: 50),
+                  Column(
+                    children: [
                       WidgetName(name: 'LoadingV2'),
                       LoadingV2(
                         color: Colors.white,
@@ -363,6 +375,18 @@ class HomePage extends HookWidget {
                     children: [
                       WidgetName(name: 'LoadingV3'),
                       LoadingV3(
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  SizedBox(width: 50),
+                  Column(
+                    children: [
+                      WidgetName(name: 'LoadingV4'),
+                      LoadingV4(
                         color: Colors.white,
                         width: w,
                         height: h,
@@ -567,6 +591,209 @@ class HomePage extends HookWidget {
                 ]),
 
                 //
+
+                const SizedBox(height: 50),
+                const Title(title: 'Social Media'),
+                const SizedBox(height: 20),
+                Wrap(runSpacing: 30, children: [
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Behance'),
+                      Behance(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Codepen'),
+                      Codepen(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Dribbble'),
+                      Dribbble(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Facebook'),
+                      Facebook(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Github'),
+                      Github(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Instagram'),
+                      Instagram(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Linkedin'),
+                      Linkedin(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Pocket'),
+                      Pocket(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'Twitter'),
+                      Behance(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'YoutubeV1'),
+                      YoutubeV1(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 50),
+                  Column(
+                    children: [
+                      const WidgetName(name: 'YoutubeV2'),
+                      YoutubeV2(
+                        focused: val.value,
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                ]),
+
+                //
+
+                const SizedBox(height: 50),
+                const Title(title: 'Other'),
+                const SizedBox(height: 20),
+                const Wrap(runSpacing: 30, children: [
+                  Column(
+                    children: [
+                      WidgetName(name: 'Activity'),
+                      Activity(
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  SizedBox(width: 50),
+                  Column(
+                    children: [
+                      WidgetName(name: 'ArrowDown'),
+                      ArrowDown(
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  SizedBox(width: 50),
+                  Column(
+                    children: [
+                      WidgetName(name: 'ArrowUp'),
+                      ArrowUp(
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                  SizedBox(width: 50),
+                  Column(
+                    children: [
+                      WidgetName(name: 'ScrollDown'),
+                      ScrollDown(
+                        color: Colors.white,
+                        width: w,
+                        height: h,
+                        fit: BoxFit.cover,
+                      ),
+                    ],
+                  ),
+                ]),
 
                 const SizedBox(height: 240),
               ],

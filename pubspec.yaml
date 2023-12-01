@@ -1,6 +1,6 @@
 name: use_widgets
 description: "Make your app more alive with beautiful animated icons."
-version: 0.3.0
+version: 0.4.0
 repository: https://github.com/dunef-io/use-widgets
 homepage: https://dunef.io
 
@@ -29,10 +29,11 @@ flutter:
   assets:
     - assets/
     - assets/action/
-    - assets/action/bookmark.json
     - assets/alerts/
     - assets/content/
     - assets/loading/
     - assets/media/
     - assets/navigation/
     - assets/notifications/
+    - assets/other/
+    - assets/social_media/
