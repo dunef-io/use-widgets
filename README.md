@@ -12,9 +12,19 @@ Make your app more alive with beautiful animated icons.
 ![alert_icons](https://github.com/dunef-io/use-widgets/assets/109608078/c6a7bd30-82e6-439e-a299-867b4d578ec1)
 
 
+### Content Icons
+
+https://github.com/dunef-io/use-widgets/assets/109608078/54a8e2e0-32e5-43c1-aca6-ea3d795ebd60
+
+
 ### Loading Icons
 
 ![loading_icons](https://github.com/dunef-io/use-widgets/assets/109608078/90d95751-2344-4c6c-8a7f-d596fafc7bb5)
+
+
+### Media Icons
+
+![media_icons](https://github.com/dunef-io/use-widgets/assets/109608078/ffeb5328-9732-4237-95f5-c52b513940d6)
 
 
 ### Navigation Icons
