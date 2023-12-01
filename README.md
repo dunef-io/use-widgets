@@ -14,7 +14,7 @@ Make your app more alive with beautiful animated icons.
 
 ### Content Icons
 
-https://github.com/dunef-io/use-widgets/assets/109608078/54a8e2e0-32e5-43c1-aca6-ea3d795ebd60
+![content_icons](https://github.com/dunef-io/use-widgets/assets/109608078/d59f6b54-0368-45de-8334-8272d417599c)
 
 
 ### Loading Icons
